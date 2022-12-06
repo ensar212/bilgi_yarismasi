@@ -18,9 +18,9 @@ class _KisiKayitState extends State<KisiKayit> {
       appBar: null,
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Logo'),
+            Image.asset('resimler/atom.png'),
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: TextField(controller: tfcAd, decoration: InputDecoration(border: OutlineInputBorder(),hintText:'Adınız..')),
